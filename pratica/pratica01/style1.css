@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div:hover 
+{
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: max-content;
+    display: block;
+}
+
+div > p#invisivel
+{
+    display: none;
+}
+
+div:hover > p#invisivel
+{
+    display: block;
+}

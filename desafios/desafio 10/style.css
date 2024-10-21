@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+    font-size: normal;
+}
+body
+{
+    margin: 0px;
+}
+
+header {
+    background: linear-gradient(to bottom, #90EE90 2%, #06402b 80%);
+    font-family: 'idroid', sans-serif;
+}
+
+div.cabecalho
+{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: solid;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+div.cabecalho > p {
+    font-size: 20px;
+}
+
+nav > ul
+{
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > ul > li{
+    margin-right: 40px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+}
+
+main
+{
+    background-color: #90EE90;
+    margin-top: 0px;
+    font-family: 'idroid';
+    text-align: justify;
+}
+
+section
+{
+    background-color: white;
+    width: 65%;
+    margin: auto;
+    margin-top: 0px;
+    color: #00690b;
+    text-decoration: none;
+}
+
+section > h2 {
+    margin: 25px;
+    font-size: 2em;
+}
+
+section > p {
+    margin: 25px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+section > p > span{
+    margin-left: 35px;
+}
+
+article > h3 
+{
+    font-size: 1.5em;
+    margin: 25px;
+    margin-top: 35px;
+    background: linear-gradient(to right, #90EE90, #FFFFFF);
+}
+
+article > p {
+    margin: 25px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+span.parag {
+    margin-left: 35px;
+}
+span#dandroid
+{
+    color: blue;
+}
+ picture 
+{
+ margin-inline-start: 120px;
+ margin-inline-end: 100%;
+ margin: auto;
+}
+
+picture > img
+{
+display: flex;
+justify-content: center;
+align-items: center;
+    
+}
